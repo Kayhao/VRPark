@@ -88,10 +88,10 @@ MonoBehaviour:
     y: 30
     width: 2544
     height: 1291
-  m_MinSize: {x: 913, y: 442}
-  m_MaxSize: {x: 22008, y: 10021}
+  m_MinSize: {x: 917, y: 442}
+  m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 9
+  controlID: 150
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 92
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,8 +204,8 @@ MonoBehaviour:
     y: 0
     width: 571
     height: 1291
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 767
     width: 1015
     height: 524
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -353,7 +353,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 6c45f7fffa46f7ff9072f7ff9c74f7ffde78f7ffd890f7ffda90f7ff1c93f7ff86aef7ff88aef7ff98b9f7ff8cbbf7ffa8d6f7ff38d8f7ff62ddf7ff4edff7ff54e4f7ff10f1f7ff12f1f7ffb4f3f7ff54fff7ff56fff7ffe600f8fff208f8ffc20cf8ffa01cf8ff8c20f8fff225f8ff1828f8ff2e32f8ff366af8ff386af8ffde6bf8ffb07af8ff66a8f8ff0caaf8ff94b0f8ff38b2f8ff90d2f8ff0ad6f8ffececf8ff5202f9ffda03f9fff80bf9ff1a16f9fff417f9ffc81ef9ff5e25f9ffe426f9ffe230f9ffe430f9ffa833f9ff4235f9ff7440f9ff3c47f9ff144ff9ff0251f9ff4e60f9ff2e64f9ffe47af9ffd880f9ffe091f9ff7a93f9ffc29df9ff1ea8f9ff5ab1f9ff52bff9ff08fff9ff6e42faffd856faffce61faff4476faff1a9efaff1006fbffa8adfeffe4defeff363cffff80fbffff86fbffff88fbffff00000000085f000032600000ce600000446100004a61000086610000b46100001a63000056630000586300007e64000082640000c464000002650000ca650000d06500005a6700005e670000646700006a670000b867000006690000a86a0000a46b0000fc6c0000d86d0000246e0000266e00005e70000078720000427400009c7400007a750000807500008675000052760000aa760000ac760000aa7b0000b07b0000b67b0000dc7c0000de7c0000247e0000807e0000788000007c800000
+    m_ExpandedIDs: 88fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,19 +448,18 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Scene
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\unity\\Projects\\VR\u6E38\u4E50\u56ED"
+  m_LastProjectPath: D:\unity\Projects\VRAmusementPark
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e6280000
     m_LastClickedID: 10470
-    m_ExpandedIDs: ca2c0000962e00008a3000000a330000603500003e37000052370000543700005a3b0000
+    m_ExpandedIDs: 00000000d02c0000822d0000d02f0000963000003231000018330000ae3400006e3500003037000060370000623700006a3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,7 +487,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca2c0000c42f00008a3000000a330000a0340000603500002237000052370000543700005a3b0000003f0000684a0000
+    m_ExpandedIDs: 00000000d02c0000822d0000d02f0000963000003231000018330000ae3400006e3500003037000060370000623700006a3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -653,9 +652,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 87.68191, y: 401.02722, z: -1985.9745}
+    m_Target: {x: 150.60576, y: 141.93011, z: -1986}
     speed: 2
-    m_Value: {x: 87.68191, y: 401.02722, z: -1985.9745}
+    m_Value: {x: 150.60576, y: 141.93011, z: -1986}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -691,7 +690,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.00023276808, y: -0.99975294, z: 0.018311055, w: 0.012601246}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

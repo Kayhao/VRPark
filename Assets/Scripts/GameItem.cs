@@ -5,23 +5,24 @@ using UnityEngine.Video;
 using VRTK;
 using System.IO;
 
-public class GameItem : MonoBehaviour {
+public class GameItem : MonoBehaviour
+{
 
-    
+
     private VideoPlayer videoPlayer;
     public int index;
 
     private void Awake()
     {
         videoPlayer = GetComponent<VideoPlayer>();
-        GameObject.Find("ControllerRight").GetComponent<VRTK_ControllerEvents>().TouchpadReleased += GameItem_TouchpadReleased;
-        GameObject.Find("ControllerLeft").GetComponent<VRTK_ControllerEvents>().TouchpadReleased += GameItem_TouchpadReleased;
+        //GameObject.Find("ControllerRight").GetComponent<VRTK_ControllerEvents>().TouchpadReleased += GameItem_TouchpadReleased;
+        //GameObject.Find("ControllerLeft").GetComponent<VRTK_ControllerEvents>().TouchpadReleased += GameItem_TouchpadReleased;
 
     }
 
     private void Update()
     {
-        if (index==GameItemSpawn.Instance.index)
+        if (index == GameItemSpawn.Instance.index)
         {
             GetComponent<MeshCollider>().enabled = true;
             GetComponent<MeshRenderer>().material.color = Color.white;
@@ -33,10 +34,10 @@ public class GameItem : MonoBehaviour {
         }
     }
 
-    private void GameItem_TouchpadReleased(object sender, ControllerInteractionEventArgs e)
-    {
-        videoPlayer.Pause();  //抬起就暂停
-    }
+    //private void GameItem_TouchpadReleased(object sender, ControllerInteractionEventArgs e)
+    //{
+    //    videoPlayer.Pause();  //抬起就暂停
+    //}
 
     public void SetVideoName(string videoName)
     {
@@ -49,11 +50,18 @@ public class GameItem : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (File.Exists(videoPlayer.url)==false)
+        if (File.Exists(videoPlayer.url) == false)
         {
             return;
         }
-        videoPlayer.Play();
+        if (!videoPlayer.isPlaying)
+        {
+            videoPlayer.Play();
+        }
+        else
+        {
+            videoPlayer.Pause();
+        }
     }
 
     private void OnTriggerExit(Collider other)

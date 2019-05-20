@@ -43,6 +43,7 @@ public class GameStartPanel : MonoBehaviour {
         btn_Select.onClick.AddListener(() =>
         {
             //todo  跳进场景
+            Loading.Instance.LoadScene();
         }
         );
     }
